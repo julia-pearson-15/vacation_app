@@ -12,5 +12,13 @@ class NeighborhoodsController < ActionController::Base
   end
 
   def create
-    @Neighborhood = Neighborhood.create({name: params[:name], city: params[:city], state:, name: params[:name] params[:state], zip: params[:zip]})
+    @neighborhood = Neighborhood.create({
+      name: params[:name], 
+      city: params[:city], 
+      state: params[:state], 
+      zip: params[:zip]
+    })
+    redirect_to @neighborhood
+  end
+
 end	
