@@ -44,3 +44,38 @@
     font-size: 20px;
     padding-top: 50px;
 }
+
+.sign_up {
+    background-image: url("https://a2.muscache.com/airbnb/static/landing_pages/pretzel/stills/croatia-887a17b9994536f0d95bfd3f43ed664c.jpg");
+	height:800px;
+	text-align: center;
+	font-family: raleway;
+	font-weight: bold;
+	
+}
+
+.sign_up h1{
+	margin: 0 auto;
+	font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:black;
+}
+
+.neighborhoods {
+	margin: 0 auto;
+	text-align: center;
+	font-family: raleway;
+	font-weight: bold;
+    color: grey;
+    padding-bottom: 25px;
+}
+
+.neighborhoods ul{
+	list-style-type: none;
+}
+
+.neighborhoods_image{
+	background-image: url("http://assets3.thrillist.com/v1/image/1388258/size/tmg-article_main_wide_2x");
+	height:700px;
+}
