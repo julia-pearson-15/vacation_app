@@ -27,9 +27,9 @@ chelsea = Neighborhood.create(img_url: "http://luxuryrentalsmanhattan.com/sites/
 
 
 
-l1 = Listing.create(address: "123 Sesame Street", price_per_night: "$75", description: "Beautiful oceanfront property in the heart of Bushwick" img_url: "https://www.wheretostay.com/prop_photos/91000/91689/Grand-Villa-6-Anguilla-Covecastles_ocean-front.jpg.pagespeed.ce.P608shkenH.jpg")
+l1 = Listing.create(address: "123 Sesame Street", price_per_night: "$75", description: "Beautiful oceanfront property in the heart of Bushwick", img_url: "https://www.wheretostay.com/prop_photos/91000/91689/Grand-Villa-6-Anguilla-Covecastles_ocean-front.jpg.pagespeed.ce.P608shkenH.jpg")
 
-l2 = Listing.create(address: "1428 Elm Street", price_per_night: "$100", description: "Gorgeous cabin in the wilderness of Williamsburg!" img_url: "https://s-media-cache-ak0.pinimg.com/736x/8b/b1/61/8bb161a35f414a71cc0e845609878847.jpg")
+l2 = Listing.create(address: "1428 Elm Street", price_per_night: "$100", description: "Gorgeous cabin in the wilderness of Williamsburg!", img_url: "https://s-media-cache-ak0.pinimg.com/736x/8b/b1/61/8bb161a35f414a71cc0e845609878847.jpg")
 
 l3 = Listing.create(address: "112.5 Beacon Street", price_per_night: "$80", description: "Lovely Upper West Side teepees", img_url: "http://www.thecaseforwanderlust.com/wp-content/uploads/2013/10/IMG_4474.jpg")
 
