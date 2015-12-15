@@ -3,6 +3,7 @@ class ListingsController < ApplicationController
   # /listings/
   before_action :authorize, except: [:index, :show]
 
+
   # either neighborhoods/:neighborhood_id/listings
   #  or /listings
   def index
@@ -14,6 +15,7 @@ class ListingsController < ApplicationController
       @listings = Listing.all
     } 
     end
+
   end
 
   # /listings/:id
