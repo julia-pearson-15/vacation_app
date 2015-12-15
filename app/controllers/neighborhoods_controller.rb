@@ -1,5 +1,5 @@
 class NeighborhoodsController < ApplicationController
-  before_action :authorize, except: [:create, :new]
+  before_action :authorize, except: [:index, :show]
   
   def index
     @neighborhoods = Neighborhood.all
