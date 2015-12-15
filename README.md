@@ -31,7 +31,6 @@ This very simple (Airbnb wasn't built in a day) app allows travelers to book lod
 ![wf pic3](/images/wf_three.jpg)
 ![wf pic4](/images/wf_four.jpg)
 
-
 ## Technologies Used
 - Rails 4
 - jQuery
