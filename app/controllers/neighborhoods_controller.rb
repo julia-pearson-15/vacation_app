@@ -13,13 +13,13 @@ class NeighborhoodsController < ActionController::Base
   end
 
   def create
-    @neighborhood = Neighborhood.create({
-      name: params[:name], 
-      city: params[:city], 
-      state: params[:state], 
-      zip: params[:zip]
-    })
+    @neighborhood = Neighborhood.create(neighborhood_params)
     redirect_to @neighborhood
   end
+
+  private
+    def neighborhood_params
+      params.require(:neighborhood).permit(:name, :city, :state, :zip, :img_url)
+    end
 
 end	
