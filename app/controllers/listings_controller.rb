@@ -1,7 +1,7 @@
 class ListingsController < ApplicationController
   # this will be index for all listings and the specific listings of a neighborhood
   # /listings/
-  before_action :authorize, except: [:create, :new, :edit, :update]
+  before_action :authorize, except: [:index, :show]
   def index
     # this checks if there is a neighborhood_id in the path. If not, just acts normally.
     # ALEX AND NATASHA - for you purposes, just use @listings as your variable, ^ doesn't matter 
