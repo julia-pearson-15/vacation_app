@@ -1,0 +1,21 @@
+<h1>Listings in <%= @neighborhood.name %> </h1>
+
+<ul>
+	<% @listings.each do |listing| %>
+		<li> 
+			State: <%= listing.state %>
+			</br>
+			City: <%= listing.city %>
+			</br>
+			Zip: <%= listing.zip %>
+			</br>
+			<%= listing.img_url %>
+		</li>
+	<% end %>	
+</ul>			
+
+
+
+
+
+ 
