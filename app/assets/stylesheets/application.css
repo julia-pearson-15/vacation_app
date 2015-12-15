@@ -21,3 +21,26 @@
 	font-weight: bold;
     color: grey;
 }
+
+.welcome {
+	background-image: url("http://static1.squarespace.com/static/55a40896e4b065e944474216/t/55bec9c7e4b010285c420b1c/1437617702823/airbnb+background.jpg?format=1500w");
+	height:800px;
+	text-align: center;
+	font-family: raleway;
+	font-weight: bold;
+}
+
+.welcome h1{
+	margin: 0 auto;
+	text-align: center;
+	font-family: raleway;
+	font-weight: bold;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.welcome a {
+	margin: 0 auto;
+    font-size: 20px;
+    padding-top: 50px;
+}
