@@ -1,8 +1,7 @@
 #Read Me
 
 ## Vacation App
-This very simple (Airbnb wasn't built in a day) app allows travelers to book lodging 
-
+This very simple (Airbnb wasn't built in a day) app allows travelers to book lodging in different neighborhood destinations.
 
 ## User Stories
 - a user can browse listings without being logged in
@@ -23,10 +22,14 @@ This very simple (Airbnb wasn't built in a day) app allows travelers to book lod
 - after a user's stay, the owner of that listing can write a review about the guest
 - when a user views a listing they can see the weather for that location
 
+## ERD & Data Models
+![erd pic](/images/ERD.jpg)
 
 ## Front-End Wireframes
-
-## ERD's
+![wf pic1](/images/wf_one.jpg)
+![wf pic2](/images/wf_two.jpg)
+![wf pic3](/images/wf_three.jpg)
+![wf pic4](/images/wf_four.jpg)
 
 ## Technologies Used
 - Rails 4
