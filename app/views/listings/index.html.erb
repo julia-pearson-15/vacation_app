@@ -3,11 +3,11 @@
 <ul>
   <% @listings.each do |listing| %>
     <li>
-      State: <%= listing.img_url %>
+      <img src="<%= listing.img_url %>">
       </br>
-      City: <%= listing.address %>
+      address: <%= listing.address %>
       </br>
-      Zip: <%= listing.price_per_night %>
+      price: <%= listing.price_per_night %>
       </br>
       <%= listing.description %>
     </li>
