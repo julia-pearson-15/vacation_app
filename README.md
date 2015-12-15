@@ -23,14 +23,13 @@ This very simple (Airbnb wasn't built in a day) app allows travelers to book lod
 - when a user views a listing they can see the weather for that location
 
 ## ERD & Data Models
-![erd pic](images/ERD.jpg)
+![erd pic](/images/ERD.jpg)
 
 ## Front-End Wireframes
-![wf pic1](images/wf_one.jpg)
-![wf pic2](images/wf_two.jpg)
-![wf pic3](images/wf_three.jpg)
-![wf pic4](images/wf_four.jpg)
-
+![wf pic1](/images/wf_one.jpg)
+![wf pic2](/images/wf_two.jpg)
+![wf pic3](/images/wf_three.jpg)
+![wf pic4](/images/wf_four.jpg)
 
 ## Technologies Used
 - Rails 4
