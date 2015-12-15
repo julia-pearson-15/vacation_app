@@ -1,0 +1,11 @@
+<h1><%= @user.email %></h1>
+
+<img src="<%= @user.img_url %>">
+
+<ul>
+  <% @listings.each do |listing| %>
+    <li>
+      listing.description
+    </li>
+  <% end %>
+</ul>

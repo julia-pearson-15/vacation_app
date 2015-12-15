@@ -8,6 +8,11 @@ class UsersController < ApplicationController
     redirect_to '/login'
   end
 
+  def show
+    @user = User.find_by(params[:id])
+    @listings = @user.listings
+  end
+
   private
     def user_params
       params.require(:user).permit(:email, :password, :password_confirmation, :img_url, :bio)
