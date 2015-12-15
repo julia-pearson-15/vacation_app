@@ -1,7 +1,10 @@
 <h1> Available Neighborhoods </h1>
 
+<a href="/neighborhoods/new">Add a Neighborhood</a>
+
 <ul>
   <% @neighborhoods.each do |neighborhood| %>
-    <li> <%= neighborhood.name %> </li>
+    <li><a href="/neighborhood/<%= @neighborhood.id %>"> <%= neighborhood.name %> </li>
   <%end%>
 </ul>
+

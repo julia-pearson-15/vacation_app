@@ -5,21 +5,7 @@
 <p><%= @neighborhood.state %></p>
 <p><%= @neighborhood.zip %></p>
 
-<h3>Listings in <%= @neighborhood.name %> </h3>
-
-<ul>
-	<% @listings.each do |listing| %>
-		<li> 
-			State: <%= listing.state %>
-			</br>
-			City: <%= listing.city %>
-			</br>
-			Zip: <%= listing.zip %>
-			</br>
-			<%= listing.img_url %>
-		</li>
-	<% end %>	
-</ul>			
+<a href="/neighborhoods/<%= @neighborhood.id %>/listings">See Listings!</a>
 
 
 
