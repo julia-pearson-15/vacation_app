@@ -9,8 +9,7 @@ class ListingsController < ApplicationController
   def index
     # this checks if there is a neighborhood_id in the path. If not, just acts normally.
     # ALEX AND NATASHA - for you purposes, just use @listings as your variable, ^ doesn't matter 
-    puts params
-    @neighborhood = Neighborhood.find(neighborhood_id: params[:neighborhood_id])
+    @neighborhood = Neighborhood.find(params[:neighborhood_id])
     
     if params[:neighborhood_id]
       @listings = Listing.where(neighborhood_id: params[:neighborhood_id])
