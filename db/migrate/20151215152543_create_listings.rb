@@ -5,8 +5,8 @@ class CreateListings < ActiveRecord::Migration
       t.string :address
       t.string :price_per_night
       t.string :description
-      t.references :user_id
-      t.references :neighborhood_id
+      t.references :user
+      t.references :neighborhood
     end
   end
 end
