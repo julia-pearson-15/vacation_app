@@ -5,7 +5,9 @@
 <ul>
   <% @listings.each do |listing| %>
     <li>
-      listing.description
+      <a href="/listings/<%= listing.id %>"><%= listing.address %></a>
+      </br>
+      <%= listing.description %>
     </li>
   <% end %>
 </ul>
