@@ -1,7 +1,7 @@
 <h1> Available Neighborhoods </h1>
 
-@neighborhoods.each do |neighborhood|
-
 <ul>
-  <li> neighborhood.name </li>
+  <% @neighborhoods.each do |neighborhood| %>
+    <li> <%= neighborhood.name %> </li>
+  <%end%>
 </ul>
