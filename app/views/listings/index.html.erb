@@ -3,13 +3,13 @@
 <ul>
   <% @listings.each do |listing| %>
     <li>
-      State: <%= listing.state %>
+      State: <%= listing.img_url %>
       </br>
-      City: <%= listing.city %>
+      City: <%= listing.address %>
       </br>
-      Zip: <%= listing.zip %>
+      Zip: <%= listing.price_per_night %>
       </br>
-      <%= listing.img_url %>
+      <%= listing.description %>
     </li>
   <% end %> 
 </ul>     
