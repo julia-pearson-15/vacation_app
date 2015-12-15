@@ -1,3 +1,3 @@
-class BookingsController < ActionController::Base
+class BookingsController < ApplicationController::Base
   
 end	
