@@ -1,4 +1,4 @@
-class ReviewsController < ApplicationController::Base
+class ReviewsController < ApplicationController
   # no need for index or show here!! Reviews are only displayed on Listing page
   def new
     @review = Review.new

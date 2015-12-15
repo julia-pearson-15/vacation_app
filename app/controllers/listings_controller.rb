@@ -1,4 +1,4 @@
-class ListingsController < ApplicationController::Base
+class ListingsController < ApplicationController
   # this will be index for all listings and the specific listings of a neighborhood
   # /listings/
   def index
