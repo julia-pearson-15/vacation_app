@@ -1,4 +1,11 @@
-<h1>Listings in <%= @neighborhood.name %> </h1>
+<h1><%= @neighborhood.name %></h1>
+
+<img src="<%= @neighborhood.img_url %>">
+<p><%= @neighborhood.city %></p>
+<p><%= @neighborhood.state %></p>
+<p><%= @neighborhood.zip %></p>
+
+<h3>Listings in <%= @neighborhood.name %> </h3>
 
 <ul>
 	<% @listings.each do |listing| %>
