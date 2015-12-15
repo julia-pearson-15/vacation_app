@@ -5,6 +5,7 @@ class NeighborhoodsController < ActionController::Base
 
   def show
     @neighborhood = Neighborhood.find(params[:id])
+    @listings = @neighborhood.listings
   end
 
   def new

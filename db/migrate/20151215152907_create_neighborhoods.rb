@@ -5,6 +5,7 @@ class CreateNeighborhoods < ActiveRecord::Migration
       t.string :state
       t.string :city
       t.integer :zip
+      t.string :img_url
     end
   end
 end
