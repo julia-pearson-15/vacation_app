@@ -10,6 +10,6 @@ class ReviewsController < ApplicationController
 
   private
     def review_params
-      params.require(:review).permit(:name, :city, :state, :zip, :img_url)
+      params.require(:review).permit(:content, :user, :listing)
     end
 end	
