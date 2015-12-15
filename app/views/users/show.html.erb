@@ -8,6 +8,8 @@
       <a href="/listings/<%= listing.id %>"><%= listing.address %></a>
       </br>
       <%= listing.description %>
+      </br>
+      <a href="/users/<%= listing.user.id %>"><%= listing.user.email %></a>
     </li>
   <% end %>
 </ul>
