@@ -3,9 +3,9 @@ class CreateBookings < ActiveRecord::Migration
     create_table :bookings do |t|
       t.datetime :in_date
       t.datetime :out_date
-      t.references :user_id
-      t.references :listing_id
-      t.references :owner_id
+      t.references :user
+      t.references :listing
+      t.references :owner
 
       t.timestamps null: false
     end

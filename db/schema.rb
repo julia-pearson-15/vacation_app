@@ -19,11 +19,11 @@ ActiveRecord::Schema.define(version: 20151215153011) do
   create_table "bookings", force: :cascade do |t|
     t.datetime "in_date"
     t.datetime "out_date"
-    t.integer  "user_id_id"
-    t.integer  "listing_id_id"
-    t.integer  "owner_id_id"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.integer  "user_id"
+    t.integer  "listing_id"
+    t.integer  "owner_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "listings", force: :cascade do |t|
@@ -31,8 +31,8 @@ ActiveRecord::Schema.define(version: 20151215153011) do
     t.string  "address"
     t.string  "price_per_night"
     t.string  "description"
-    t.integer "user_id_id"
-    t.integer "neighborhood_id_id"
+    t.integer "user_id"
+    t.integer "neighborhood_id"
   end
 
   create_table "neighborhoods", force: :cascade do |t|
@@ -45,8 +45,8 @@ ActiveRecord::Schema.define(version: 20151215153011) do
 
   create_table "reviews", force: :cascade do |t|
     t.string  "content"
-    t.integer "user_id_id"
-    t.integer "listing_id_id"
+    t.integer "user_id"
+    t.integer "listing_id"
   end
 
   create_table "users", force: :cascade do |t|
