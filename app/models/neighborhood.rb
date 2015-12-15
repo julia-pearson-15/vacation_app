@@ -1,3 +1,3 @@
-class Neighborhood < Activerecord::Base
+class Neighborhood < ActiveRecord::Base
   has_many :listings
 end
